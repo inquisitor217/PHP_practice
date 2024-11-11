@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<form action="index.php" method="post">
+<form action="login_get_html.php" method="post">
 Имя: <input type="text" name="name"><br><br>
 Фамилия: <input type="text" name="surname"><br><br>
 Отчество: <input type="text" name="surname2"><br><br>
