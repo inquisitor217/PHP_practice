@@ -8,7 +8,7 @@
     <title>TO-DO list</title>
 </head>
 <body>
-<form method="post" action="TO-DO_List.php">
+<form method="post" action="get_tasks.php">
     <label for="title">Название задачи:</label>
     <input type="text" name="title"><br><br>
 
