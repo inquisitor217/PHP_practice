@@ -21,7 +21,11 @@
     <label for="due_date">Дата завершения:</label>
     <input type="date" name="due_date"><br><br>
 
-    <input type="checkbox" name="check" value="done">Выполнено<br><br>
+    <input type="radio" name="priority" value="low">Низкий<br>
+    <input type="radio" name="priority" value="medium">Средний<br>
+    <input type="radio" name="priority" value="high">Высокий<br>
+
+    <input type="checkbox" name="status" value="done">Выполнено<br><br>
 
     <input type="submit" value="Готово">
     <button type="reset" value="Очистить">Очистить</button>
